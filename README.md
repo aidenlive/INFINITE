@@ -3,6 +3,7 @@
 <div align="center">
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Status](https://img.shields.io/badge/status-In%20Development-yellow.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue)
 ![React](https://img.shields.io/badge/React-18.3-61dafb)
 ![Node](https://img.shields.io/badge/Node-20+-green)
@@ -11,7 +12,9 @@
 
 *Organize ideas, files, and visuals on an infinite zoomable canvas*
 
-[Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Demo](#-demo)
+⚠️ **Currently in active development** - See [STATUS.md](./STATUS.md) for project health and roadmap
+
+[Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Status](#-project-status)
 
 </div>
 
@@ -80,14 +83,21 @@ The frontend works standalone with localStorage!
 
 ## 📖 Documentation
 
-Comprehensive documentation is available in the `/docs` folder:
-
+### Project Status & Health
 | Document | Description |
 |----------|-------------|
-| **[README.md](./docs/README.md)** | Complete user guide and setup instructions |
-| **[API.md](./docs/API.md)** | Backend API reference |
-| **[DESIGN.md](./docs/DESIGN.md)** | Design system and visual guidelines |
-| **[ROADMAP.md](./docs/ROADMAP.md)** | Future features and development plans |
+| **[STATUS.md](./STATUS.md)** | 🟡 Current project status, health assessment, and timeline |
+| **[Health Reports](./reports/)** | Comprehensive technical and UI/UX analysis (41 issues identified) |
+
+### User Documentation
+| Document | Description |
+|----------|-------------|
+| **[SETUP.md](./SETUP.md)** | Step-by-step setup guide |
+| **[QUICKSTART.md](./QUICKSTART.md)** | Quick start guide for developers |
+| **[docs/README.md](./docs/README.md)** | Complete user guide and feature documentation |
+| **[docs/API.md](./docs/API.md)** | Backend API reference |
+| **[docs/DESIGN.md](./docs/DESIGN.md)** | Design system and visual guidelines |
+| **[docs/ROADMAP.md](./docs/ROADMAP.md)** | Future features and development plans |
 
 ---
 
@@ -265,6 +275,25 @@ Contributions are welcome! Please:
 5. Open a Pull Request
 
 See [ROADMAP.md](./docs/ROADMAP.md) for planned features.
+
+---
+
+## 📊 Project Status
+
+**Current State:** 🟡 In Development (Not Production Ready)
+
+This project is feature-complete for demo purposes but requires significant work before production deployment:
+
+- ⚠️ **Security:** No authentication, file upload vulnerabilities (P0 issues)
+- ⚠️ **Accessibility:** WCAG violations throughout, not screen reader friendly
+- ⚠️ **Mobile:** Not responsive, unusable on mobile devices
+- ⚠️ **Testing:** Zero test coverage
+
+**Total Issues Identified:** 41 (5 P0, 10 P1, 15 P2, 11 P3)
+
+**Timeline to Production:** 8-11 weeks
+
+**See [STATUS.md](./STATUS.md) for complete health assessment and roadmap.**
 
 ---
 
